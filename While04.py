@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = 0
+    for i in s:
+        if i.isupper():
+            a+=1
+    return a
+print(main("CodeschoolUz"))
