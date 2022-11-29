@@ -7,3 +7,13 @@ def main(s):
     Returns:
         int: return answer
     """
+    a = 0
+    for i in s:
+        if i=='o' or i=='e' or i=='i' or i=='u' or i=='a' :
+            a+=0
+        else :
+            a+=1
+
+    return a
+
+print(main('aaaaaaaavb'))
