@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = 0
+    for i in s:
+        a+=int(i)
+    return a
+
+print(main("987654"))
+
+
+
