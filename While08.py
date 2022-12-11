@@ -9,8 +9,8 @@ def main(s):
     a = 0
     for i in s:
         if int(i)%2==1:
-            a+=1
-        else:
-            a+=0
+            a+=int(i)
+        else:  
+            a+=0    
     return a
 print(main("1567534"))
