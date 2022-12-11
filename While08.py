@@ -13,4 +13,4 @@ def main(s):
         else:
             a+=0
     return a
-print(main('1111122222'))
+print(main("1567534"))
